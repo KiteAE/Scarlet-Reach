@@ -14694,9 +14694,8 @@
 /turf/open/floor/rogue/blocks,
 /area/rogue/under/cave/goblinfort)
 "enL" = (
-/obj/effect/spawner/lootdrop/roguetown/dungeon/misc,
-/turf/open/floor/rogue/naturalstone,
-/area/rogue/outdoors/mountains)
+/turf/open/floor/rogue/greenstone,
+/area/rogue/outdoors/bog)
 "enM" = (
 /obj/structure/fermentation_keg/random/beer,
 /turf/open/floor/rogue/dirt/road,
@@ -21530,9 +21529,6 @@
 /obj/machinery/light/rogue/firebowl/stump,
 /turf/open/floor/rogue/grasscold,
 /area/rogue/outdoors/mountains/decap)
-"got" = (
-/turf/open/floor/rogue/greenstone/runed,
-/area/rogue/outdoors/bog)
 "goF" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/rogue/cobblerock,
@@ -26570,11 +26566,6 @@
 /obj/machinery/light/rogue/wallfire/candle,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/town)
-"hIo" = (
-/obj/structure/flora/roguegrass,
-/obj/structure/flora/newtree,
-/turf/open/floor/rogue/grassred,
-/area/rogue/outdoors/rtfield)
 "hIp" = (
 /obj/machinery/light/rogue/wallfire/candle/l,
 /turf/open/floor/rogue/wood/herringbone{
@@ -48989,7 +48980,7 @@
 /turf/open/floor/rogue/herringbone,
 /area/rogue/under/cave/orcdungeon)
 "ogu" = (
-/turf/open/floor/rogue/greenstone,
+/turf/open/floor/rogue/greenstone/runed,
 /area/rogue/outdoors/bog)
 "ogw" = (
 /obj/effect/decal/cobbleedge{
@@ -63181,7 +63172,9 @@
 /turf/open/floor/rogue/dirt,
 /area/rogue/under/cave/dungeon1/gethsmane/inner)
 "sny" = (
-/obj/structure/chair/bench/church/mid,
+/obj/structure/chair/bench/church/mid{
+	dir = 1
+	},
 /turf/open/floor/rogue/church,
 /area/rogue/indoors/town/church/chapel)
 "snD" = (
@@ -65395,6 +65388,10 @@
 	},
 /obj/item/inqarticles/tallowpot{
 	pixel_x = -8
+	},
+/obj/item/reagent_containers/food/snacks/tallow/red{
+	pixel_y = 3;
+	pixel_x = 8
 	},
 /obj/item/reagent_containers/food/snacks/tallow/red{
 	pixel_y = 3;
@@ -246918,9 +246915,9 @@ tsC
 myb
 myb
 myb
+aLA
 xDV
 gdM
-dmn
 ujm
 ujm
 ujm
@@ -248274,9 +248271,9 @@ tsC
 myb
 myb
 myb
+fsy
 lGK
 gdM
-dmn
 ujm
 onF
 onF
@@ -254155,9 +254152,9 @@ iMd
 iMd
 iMd
 iMd
-seL
+sNZ
 rII
-pWT
+njB
 qyR
 qyR
 qyR
@@ -254169,7 +254166,7 @@ tsB
 tsB
 pWT
 pWT
-pWT
+njB
 pWT
 qyR
 fpx
@@ -254611,15 +254608,15 @@ pWT
 pWT
 pWT
 pWT
-pWT
-tFL
-tFL
+njB
+qyR
+qyR
 qyR
 wyE
 qPv
 qPv
 pWT
-pWT
+njB
 pWT
 pWT
 fpx
@@ -255065,11 +255062,11 @@ njB
 njB
 pWT
 pWT
-jhP
+pWT
 qyR
 lNb
 pWT
-pWT
+njB
 pWT
 pWT
 pWT
@@ -255520,8 +255517,8 @@ fpx
 fpx
 fpx
 ivJ
-jhP
-jhP
+njB
+njB
 pWT
 pWT
 fpx
@@ -255974,7 +255971,7 @@ fpx
 fpx
 pWT
 pWT
-jhP
+pWT
 fpx
 fpx
 fpx
@@ -331982,9 +331979,9 @@ vhs
 vQH
 tYx
 eyN
-got
 ogu
-got
+enL
+ogu
 mrW
 pZv
 tYx
@@ -332434,9 +332431,9 @@ vhs
 vhs
 tYx
 mrW
-ogu
+enL
 xFg
-ogu
+enL
 eyN
 mrW
 tYx
@@ -332886,9 +332883,9 @@ vhs
 vhs
 tYx
 ylq
-got
 ogu
-got
+enL
+ogu
 mrW
 tYx
 tYx
@@ -351344,8 +351341,8 @@ tYx
 mrW
 mrW
 mrW
-pXw
-enL
+qwK
+qwK
 qwK
 qwK
 qwK
@@ -351796,7 +351793,7 @@ tYx
 qwK
 qwK
 qwK
-fZN
+qwK
 pRE
 euU
 qwK
@@ -355394,7 +355391,7 @@ qwK
 qwK
 qwK
 qwK
-qwK
+cxA
 cxA
 tZh
 tZh
@@ -362178,7 +362175,7 @@ fnC
 ujm
 qwK
 qwK
-qwK
+gPP
 tYz
 tYz
 tYz
@@ -362630,8 +362627,8 @@ fnC
 ujm
 qwK
 qwK
-qwK
-tYz
+gPP
+gHz
 gHz
 lMd
 cuF
@@ -363082,8 +363079,8 @@ fnC
 ujm
 qwK
 qwK
-qwK
-tYz
+gPP
+gHz
 gHz
 lMd
 cuF
@@ -363534,7 +363531,7 @@ fnC
 ujm
 qwK
 qwK
-qwK
+gPP
 tYz
 tYz
 cqi
@@ -369413,7 +369410,7 @@ qwK
 qwK
 qwK
 qwK
-hIo
+emv
 sNZ
 hmZ
 bGf
@@ -473840,7 +473837,7 @@ aBB
 aBB
 aBB
 aBB
-aBB
+gPP
 aBB
 cxA
 cxA
@@ -479264,7 +479261,7 @@ ehn
 aBB
 aBB
 aBB
-aBB
+gPP
 aBB
 aBB
 aBB
@@ -481072,7 +481069,7 @@ ehn
 aBB
 aBB
 aBB
-aBB
+gPP
 aBB
 aBB
 aBB
@@ -483771,6 +483768,7 @@ cxA
 cxA
 cxA
 aBB
+gPP
 aBB
 aBB
 aBB
@@ -483783,8 +483781,7 @@ aBB
 aBB
 aBB
 aBB
-aBB
-aBB
+gPP
 aBB
 aBB
 bGf
